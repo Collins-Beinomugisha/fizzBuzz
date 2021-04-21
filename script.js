@@ -14,13 +14,15 @@ if (num % 3 === 0) {
 
 
 //Birth Year function
+const years = prompt("Please enter your Year of Birth")
+const age =2021 - years
 
-let birth = prompt("Please input your Birth Year")
-
-if(age<18) {
-    console.log("Minor");
-}else if(age>=18 && age<36) {
-    console.log("Youth");
+if(age < 18) {
+    console.log("You are a Minor");
+}else if(age >= 18 && age <= 36) {
+    console.log("You are a Youth");
 }esle; {
-     console.log(Elders);
+     console.log("You are an Adult");
 }
+
+console.log(age);
